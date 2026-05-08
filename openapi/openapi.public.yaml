@@ -1,0 +1,59 @@
+openapi: 3.1.0
+info:
+  title: TokenizeMe Public API
+  version: 0.1.0
+  description: Public-safe API schema for the TokenizeMe showcase repository.
+servers:
+  - url: https://api.example.com/api/v1
+paths:
+  /offerings:
+    post:
+      summary: Create a new offering
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [assetType, assetName, targetRaiseUsd]
+              properties:
+                assetType:
+                  type: string
+                assetName:
+                  type: string
+                targetRaiseUsd:
+                  type: number
+      responses:
+        "200":
+          description: Offering created
+  /offerings/{offeringId}:
+    get:
+      summary: Fetch a public offering
+      parameters:
+        - in: path
+          name: offeringId
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Offering returned
+  /investments:
+    post:
+      summary: Start an investment flow
+      responses:
+        "200":
+          description: Investment initiated
+  /portfolio/{walletAddress}:
+    get:
+      summary: Fetch investor positions
+      parameters:
+        - in: path
+          name: walletAddress
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Portfolio returned
+
