@@ -115,21 +115,36 @@ For a detailed breakdown, see [docs/architecture.md](./docs/architecture.md).
 
 ## Public Demo Surfaces
 
-This repository includes placeholders for materials that are typically useful in a grant or investor review:
+This repository includes public-facing materials that are useful in a grant or investor review:
 
 - product screenshots in [`assets/screenshots`](./assets/screenshots/README.md)
 - sample API requests in [docs/api-examples.md](./docs/api-examples.md)
 - public OpenAPI definition in [openapi/openapi.public.yaml](./openapi/openapi.public.yaml)
 - workflow diagrams and lifecycle notes in [docs/workflow.md](./docs/workflow.md)
 
-### Suggested screenshots or demo assets
+### Platform Screenshots
 
-- Issuer dashboard overview
-- Asset creation flow
-- Tokenized offering detail page
-- Investor portfolio and ownership view
-- Blockchain transaction status and settlement screen
-- Architecture diagram or product flow graphic
+#### Wallet onboarding
+
+![Wallet connect options](./assets/screenshots/01-wallet-connect-options.png)
+
+![Lobstr connection flow](./assets/screenshots/02-lobstr-connection-flow.png)
+
+#### Marketplace and investor experience
+
+![Marketplace offerings](./assets/screenshots/03-marketplace-offerings.png)
+
+![Wallet dashboard](./assets/screenshots/04-wallet-dashboard.png)
+
+![Transaction history](./assets/screenshots/05-transaction-history.png)
+
+#### Issuer and platform operations
+
+![Crowdsale dashboard](./assets/screenshots/06-crowdsale-dashboard.png)
+
+![Security settings](./assets/screenshots/07-security-settings.png)
+
+![Music dashboard](./assets/screenshots/08-music-dashboard.png)
 
 ## Quick Start
 

@@ -1,18 +1,20 @@
-# Screenshots and Demo Placeholders
+# Screenshots
 
-Recommended assets for a grant-ready repository:
+Current platform screenshots included in this repository:
 
-- `01-dashboard-overview.png`
-- `02-offering-creation.png`
-- `03-investment-flow.png`
-- `04-portfolio-view.png`
-- `05-architecture-diagram.png`
+- `01-wallet-connect-options.png`
+- `02-lobstr-connection-flow.png`
+- `03-marketplace-offerings.png`
+- `04-wallet-dashboard.png`
+- `05-transaction-history.png`
+- `06-crowdsale-dashboard.png`
+- `07-security-settings.png`
+- `08-music-dashboard.png`
 
-Recommended additions:
+Recommended future additions:
 
 - one short product demo GIF
 - one architecture diagram exported as PNG or SVG
-- one redacted admin or issuer workflow screenshot
+- one sanitized end-to-end issuer flow collage
 
-Keep all visuals sanitized and free of private data.
-
+Note: before publishing future screenshots, double-check that no secrets, personal data, internal URLs, or restricted operational details are visible.
