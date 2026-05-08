@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/tokenizeme-header.png" alt="TokenizeMe header" width="100%" />
+</p>
+
 # TokenizeMe Public Showcase
 
 [![Stellar](https://img.shields.io/badge/Stellar-Soroban-blue)](https://stellar.org/soroban)
