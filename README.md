@@ -233,14 +233,3 @@ This public showcase repository is released under the MIT License. See [LICENSE]
 ## Grant / Investor Ready Description
 
 TokenizeMe is a Stellar-powered tokenization platform that helps issuers launch compliant digital asset offerings for music rights and real-world assets. The system combines Soroban smart contracts with an operational backend to manage issuance, fundraising, ownership accounting, and settlement while keeping compliance and business workflows practical for real-world deployment.
-
-## Signals of Active Maintenance
-
-To help this repository look credible and current:
-
-- keep the roadmap updated every month
-- publish architecture revisions as the system evolves
-- maintain a changelog or release notes
-- add sanitized screenshots and demo recordings
-- keep CI green on the public example code
-- document milestones, test coverage goals, and public issues
